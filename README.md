@@ -1,18 +1,37 @@
-Workout logger
+# Workout Logger
 
-log in your workout data
-filter specific workouts or exercises and get data about your routine
+A simple workout logger to track and filter your exercise routines.
 
-built with:
-    backend(api server): Java spring
-    database: mysql
-    frontend: js, html, css
+## Features
 
-prerequisites:
-    docker
-    docker compose plugin
+- **Log** your workout data.
+- **Filter** specific workouts or exercises.
+- View data about your fitness routine.
 
-how to run:
-    git clone git@github.com:shmador/java-sql-app.git
-    docker compose up
+## Built With
+
+- **Backend (API Server):** Java Spring
+- **Database:** MySQL
+- **Frontend:** JavaScript, HTML, CSS
+- **Build and CI:** Maven
+- **Deployment:** Docker
+
+## Prerequisites
+
+Before you begin, ensure you have the following installed:
+
+- [Docker](https://www.docker.com/)
+- [Docker Compose Plugin](https://docs.docker.com/compose/install/)
+
+## How to Run
+
+1. Clone the repository:
+
+   ```bash
+   git clone git@github.com:shmador/java-sql-app.git
+
+2. Run:
+   ```bash
+   docker compose up
+
 
