@@ -21,7 +21,7 @@ A simple workout logger to track and filter your exercise routines.
 
 ## Prerequisites
 
-Before you begin, ensure you have the following installed:
+Ensure you have the following installed:
 
 - [Docker](https://www.docker.com/)
 - [Docker Compose Plugin](https://docs.docker.com/compose/install/)
