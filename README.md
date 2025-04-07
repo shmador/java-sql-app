@@ -1,3 +1,6 @@
+![image](preview2.png)
+![image](preview1.png)
+
 # Workout Logger
 
 A simple workout logger to track and filter your exercise routines.
@@ -25,13 +28,29 @@ Before you begin, ensure you have the following installed:
 
 ## How to Run
 
-1. Clone the repository:
+1. Clear ports: 80, 8080, 3306
+
+2. Clone the repository:
 
    ```bash
    git clone git@github.com:shmador/java-sql-app.git
 
-2. Run:
+3. Go to the repository directory:
+   
+   ```bash
+   cd java-sql-app
+
+4. Run:
+   
    ```bash
    docker compose up
+
+5. Access the website on localhost:80
+
+
+
+
+
+
 
 
