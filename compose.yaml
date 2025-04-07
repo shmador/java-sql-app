@@ -1,0 +1,26 @@
+services:
+  db:
+    image: shmador/mysql-db
+    container_name: mysql
+    restart: always
+    ports:
+      - "3306:3306"
+  api:
+    image: shmador/java-api
+    container_name: java
+    restart: always
+    ports:
+      - 8080:8080
+    depends_on: 
+      - db
+  front:
+    image: nginx:latest
+    container_name: nginx
+    ports:
+      - 80:80
+    volumes:
+      - ./nginx/html:/usr/share/nginx/html
+    depends_on:
+      - api
+      - db
+
