@@ -16,7 +16,7 @@ A simple workout logger to track and filter your exercise routines.
 - **Backend (API Server):** Java Spring
 - **Database:** MySQL
 - **Frontend:** JavaScript, HTML, CSS
-- **Build and CI:** Maven
+- **Build:** Maven
 - **Deployment:** Docker
 
 ## Prerequisites
